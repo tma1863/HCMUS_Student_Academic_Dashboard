@@ -27,7 +27,7 @@ The system is designed with a self-hosted architecture implemented using Docker 
 ![](image/offline.png)
 
 ## Online: End-user
-![](image/online.png)
+<img width="712" height="521" alt="online" src="https://github.com/user-attachments/assets/935fb818-2534-4e9c-a6d4-93edf4a9923b" />
 
 # Data (Input & Output)
 
