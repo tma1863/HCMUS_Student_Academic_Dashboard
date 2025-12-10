@@ -58,6 +58,10 @@ The dashboard utilizes various interactive visualizations built with Dash and Pl
 4.  **Radar Chart:** Used for comparing multiple variables across groups, such as the average GPA for students pursuing different `Future Careers` within a specific `Interested Domain` (e.g., Artificial Intelligence).
 
 
+Uploading record1.mp4…
+
+
+
 # Environment Setup (Using Docker Compose)
 
 The environment is set up using `docker-compose.yml` to launch two core services: the PostgreSQL database and the pgAdmin management interface,.
