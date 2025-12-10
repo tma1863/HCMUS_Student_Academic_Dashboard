@@ -57,10 +57,7 @@ The dashboard utilizes various interactive visualizations built with Dash and Pl
 3.  **Sankey Diagram:** Visualizes the flow and quantitative relationships between stages, such as the flow of students from majors to interested domains and future careers.
 4.  **Radar Chart:** Used for comparing multiple variables across groups, such as the average GPA for students pursuing different `Future Careers` within a specific `Interested Domain` (e.g., Artificial Intelligence).
 
-
-Uploading record1.mp4…
-
-
+https://github.com/user-attachments/assets/16ca802a-74f1-46c2-837c-7144bf97ff73
 
 # Environment Setup (Using Docker Compose)
 
