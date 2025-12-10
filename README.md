@@ -1,4 +1,4 @@
-# HCMUS Student Academic Performance Monitoring Dashboard
+# HCMUS Student Academic Performance Dashboard
 
 This project is a self-hosted dashboard developed to visualize and analyze the academic results and output quality of students, specifically targeting the management needs of the Faculty of Mathematics and Computer Science at the University of Science (HCMUS).
 
@@ -57,7 +57,7 @@ The dashboard utilizes various interactive visualizations built with Dash and Pl
 3.  **Sankey Diagram:** Visualizes the flow and quantitative relationships between stages, such as the flow of students from majors to interested domains and future careers.
 4.  **Radar Chart:** Used for comparing multiple variables across groups, such as the average GPA for students pursuing different `Future Careers` within a specific `Interested Domain` (e.g., Artificial Intelligence).
 
-https://github.com/user-attachments/assets/16ca802a-74f1-46c2-837c-7144bf97ff73
+https://github.com/user-attachments/assets/7df58c52-18da-430e-933c-bcced9bd697d
 
 # Environment Setup (Using Docker Compose)
 
