@@ -6,7 +6,7 @@ The dashboard aims to provide a comprehensive and intuitive overview of student 
 
 # Core Objectives
 
-*   **Database Simulation and Management:** Build and simulate a complete educational relational database schema optimized for integrity, flexible storage, querying, and data security.
+*   **Database Simulation and Management:** Build and simulate a complete educational relational database schema optimized for integrity, flexible storage, querying, and data security. Acknowledge ACID properties and ERD Model in DBMS.
 *   **Data Visualization:** Develop a self-hosted dashboard interface that utilizes interactive charts to visualize student data dynamically,.
 *   **Quality Assessment:** Support the assessment of overall academic performance and output quality based on various criteria, including admission methods and initial input majors.
 
