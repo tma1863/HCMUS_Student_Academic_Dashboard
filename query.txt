@@ -4,7 +4,7 @@ create table course_id (
 );
 
 COPY course_id (course_id, course_name)
-FROM '/var/lib/postgresql/data/course_id.csv'
+FROM '/mnt/csv_data/course_id.csv'
 DELIMITER ',' CSV HEADER;
 
 create table field (
@@ -13,7 +13,7 @@ create table field (
 );
 
 COPY  field (field_id,field_name)
-FROM '/var/lib/postgresql/data/field.csv'
+FROM '/mnt/csv_data/field.csv'
 DELIMITER ',' CSV HEADER;
 
 create table subfield (
@@ -24,7 +24,7 @@ create table subfield (
 );
 
 COPY  subfield (field_id, subfield_id, subfield_name)
-FROM '/var/lib/postgresql/data/subfield.csv'
+FROM '//mnt/csv_data/subfield.csv'
 DELIMITER ',' CSV HEADER;
 
 create table major (
@@ -37,7 +37,7 @@ create table major (
 );
  
 COPY  major (field_id, subfield_id, major_id, major_name)
-FROM '/var/lib/postgresql/data/major.csv'
+FROM '/mnt/csv_data/major.csv'
 DELIMITER ',' CSV HEADER;
 
 create table year (
@@ -45,7 +45,7 @@ create table year (
 );
  
 COPY  year (school_year)
-FROM '/var/lib/postgresql/data/year.csv'
+FROM '/mnt/csv_data/year.csv'
 DELIMITER ',' CSV HEADER;
 
 create table stage (
@@ -53,7 +53,7 @@ create table stage (
 );
  
 COPY  stage (stage_num)
-FROM '/var/lib/postgresql/data/stage.csv'
+FROM '/mnt/csv_data/stage.csv'
 DELIMITER ',' CSV HEADER;
 
 create table form_of_application (
@@ -62,7 +62,7 @@ create table form_of_application (
 );
  
 COPY  form_of_application (application_id, application_name)
-FROM '/var/lib/postgresql/data/form_of_application.csv'
+FROM '/mnt/csv_data/form_of_application.csv'
 DELIMITER ',' CSV HEADER;
 
 create table student (
@@ -80,7 +80,7 @@ create table student (
 );
 
 COPY  student(student_id, gender, academic_degree, field_id, subfield_id, major_id, application_id, highschool_name, honor_program, school_year)
-FROM '/var/lib/postgresql/data/student.csv'
+FROM '/mnt/csv_data/student.csv'
 DELIMITER ',' CSV HEADER;
 
 create table student_performance (
@@ -96,7 +96,7 @@ create table student_performance (
 );
 
 COPY  student_performance (school_year, semester, student_id, field_id, subfield_id, major_id, status)
-FROM '/var/lib/postgresql/data/student_performance.csv'
+FROM '/mnt/csv_data/student_performance.csv'
 DELIMITER ',' CSV HEADER;
 
 create table course (
@@ -116,7 +116,7 @@ create table course (
 );
 
 COPY  course(course_id, course_name, credits, theoretical_credits, practical_credits, stage, optional_11, optional_28, compulsory_for_specific_11, course_group)
-FROM '/var/lib/postgresql/data/course.csv'
+FROM '/mnt/csv_data/course.csv'
 DELIMITER ',' CSV HEADER;
 
 create table grade(
@@ -131,7 +131,7 @@ create table grade(
 );
 
 COPY  grade(school_year, semester, course_id, student_id, final_score)
-FROM '/var/lib/postgresql/data/grade.csv'
+FROM '/mnt/csv_data/grade.csv'
 DELIMITER ',' CSV HEADER;
 
 ALTER TABLE grade
