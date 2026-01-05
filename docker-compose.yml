@@ -8,7 +8,10 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: test_db
     volumes:
-      - ./postgresql:/var/lib/postgresql/
+      # This folder is ONLY for Postgres internal files (keep it empty at start!)
+      - ./postgresql:/var/lib/postgresql/data
+      # This folder is for the CSV files
+      - ./data:/mnt/csv_data
     ports:
       - "5433:5432"  # host_port:container_port
   pgadmin:
