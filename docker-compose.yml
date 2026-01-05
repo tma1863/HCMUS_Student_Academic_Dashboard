@@ -1,7 +1,7 @@
 services:
   db:
     container_name: postgres_container
-    image: postgres
+    image: postgres:17
     restart: always
     environment:
       POSTGRES_USER: root
@@ -16,7 +16,7 @@ services:
       - "5433:5432"  # host_port:container_port
   pgadmin:
     container_name: pgadmin4_container
-    image: dpage/pgadmin4
+    image: dpage/pgadmin4:9.7
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: root
